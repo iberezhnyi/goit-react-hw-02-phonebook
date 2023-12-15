@@ -16,7 +16,9 @@ class App extends Component {
       id: nanoid(),
     };
 
-    const isDuplicated = this.state.contacts.find(el => el.name === data.name);
+    const isDuplicated = this.state.contacts.find(
+      el => el.name.toLowerCase() === data.name.toLowerCase()
+    );
 
     if (isDuplicated) {
       alert(`${data.name} is already in contacts`);
