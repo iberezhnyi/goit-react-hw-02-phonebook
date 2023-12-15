@@ -1,0 +1,15 @@
+.contact-item {
+  font-weight: bold;
+}
+
+.btn-delete {
+  padding: 2px 5px 2px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.contact-text {
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
